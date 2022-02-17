@@ -4,7 +4,7 @@ body{
 }
 /* header start ----------------------------------- */
 header{
-    background-color: blue;
+    background-color: rgb(50, 50, 185);
     height: 100px;
     padding-left: 100px;
     padding-top: 15px;
@@ -29,7 +29,7 @@ ul li a{
 .login{
     display: flex;
     background-color: rgb(177, 37, 37);
-    padding: 5px 18px;
+    /* padding: 5px 18px; */
     height: 40px;
     align-items: center;
     margin-left: 350px;
@@ -39,8 +39,11 @@ ul li a{
     height: 20px;
 }
 /* main start----------------------------------  */
+main,footer{
+    background-color: white;
+}
 .container{
-    background-color: blue;
+    background-color: rgb(50, 50, 185);
     display: flex;
     padding-top: 50px;
 }
@@ -64,3 +67,64 @@ ul li a{
     height: 440px;
     padding-right: 150px;
 }   
+/* playres----------------------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,275px);
+    grid-gap: 25px;
+    justify-content: center;
+    padding-top: 60px;
+}
+.plyare{
+    width: 260px;
+    height: 470px;
+    background-color: rgb(245, 239, 239);
+    padding-left: 12px;
+}
+.playres-img{
+ width: 250px;   
+ height: 250px;
+ padding-top:12px ;
+}
+/* match start------------------------------ */
+.matches{
+    display: flex;
+    margin-top:120px ;
+}
+.match-detail{
+    width: 40%;
+    margin-left: 160px;
+}
+.thumbnel img {
+    width: 450px;
+    height: 375px;
+    /* width: 40%; */
+}
+.match-title{
+    font-size: 45px;
+    color: black;
+}
+.highlight{
+    margin-top: 45px;
+}
+/* footer start-----------------------------  */
+.football-logo img{
+    width: 470px;
+    height: 88px;
+    margin-top: 180px;
+    margin-left: 475px;
+
+}
+.social-icon img{
+    height: 35px;
+    width: 35px;
+    margin: 10px
+}
+.social-icon{
+    margin-top: 30px;
+    margin-left: 600px;
+}
+.copy-right{
+    font-size: 25px;
+    text-align: center;
+}
