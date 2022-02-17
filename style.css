@@ -71,19 +71,22 @@ main,footer{
 .players{
     display: grid;
     grid-template-columns: repeat(3,275px);
-    grid-gap: 25px;
+    grid-column-gap: 120px;
+    grid-row-gap: 30px;
     justify-content: center;
     padding-top: 60px;
 }
 .plyare{
-    width: 260px;
-    height: 470px;
+    width: 350px;
+    height: 500px;
     background-color: rgb(245, 239, 239);
-    padding-left: 12px;
+    padding-left: 15px;
+    text-justify:newspaper;
+    
 }
 .playres-img{
- width: 250px;   
- height: 250px;
+ width: 330px;   
+ height: 300px;
  padding-top:12px ;
 }
 /* match start------------------------------ */
